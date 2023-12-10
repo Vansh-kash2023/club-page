@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import Popup from './Popup';
 
 
+
 const Navbar = () => {
     const router = useRouter();
     const [showPopup, setShowPopup] = useState(false);

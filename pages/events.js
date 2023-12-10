@@ -31,8 +31,7 @@ const Events = () => {
         body {
             font-family: 'Cascadia Code', 'Courier New', 'monospace';
             background: rgb(0,0,0);
-            background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 21%, rgba(0,0,0,1) 26%, rgba(5,17,9,1) 32%, rgba(8,28,14,1) 39%, rgba(10,36,18,1) 45%, rgba(14,49,25,1) 54%, rgba(16,58,30,1) 58%, rgba(19,69,35,1) 65%, rgba(23,82,42,1) 71%, rgba(29,102,53,1) 76%, rgba(32,115,60,1) 81%, rgba(36,128,67,1) 87%, rgba(39,137,72,1) 93%, rgba(39,137,72,1) 100%); 
-             
+            background: linear-gradient(to right bottom, #5c249b, #5f27a3, #632aaa, #662eb2, #6931ba, #6531b1, #6131a8, #5d319f, #512d84, #45296a, #392551, #2c2039);
         }`}} />
             <Navbar position="fixed" />
             <div className={styles.heading} style={{ marginTop: '10px', color: 'rgb(252, 3, 3)' }}>
